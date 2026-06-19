@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json.schemastore.org/vercel.json",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": [
+    {
+      "key": "NEXT_PUBLIC_SUPABASE_URL",
+      "value": "@NEXT_PUBLIC_SUPABASE_URL",
+      "type": "string"
+    },
+    {
+      "key": "NEXT_PUBLIC_SUPABASE_ANON_KEY",
+      "value": "@NEXT_PUBLIC_SUPABASE_ANON_KEY",
+      "type": "string"
+    },
+    {
+      "key": "SUPABASE_SERVICE_ROLE_KEY",
+      "value": "@SUPABASE_SERVICE_ROLE_KEY",
+      "type": "secret"
+    },
+    {
+      "key": "RESEND_API_KEY",
+      "value": "@RESEND_API_KEY",
+      "type": "secret"
+    },
+    {
+      "key": "NEXT_PUBLIC_CONTACT_EMAIL",
+      "value": "@NEXT_PUBLIC_CONTACT_EMAIL",
+      "type": "string"
+    },
+    {
+      "key": "NEXT_PUBLIC_ADMIN_EMAIL",
+      "value": "@NEXT_PUBLIC_ADMIN_EMAIL",
+      "type": "string"
+    },
+    {
+      "key": "NEXT_PUBLIC_SITE_URL",
+      "value": "@NEXT_PUBLIC_SITE_URL",
+      "type": "string"
+    }
+  ]
+}

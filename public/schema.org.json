@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Echoes of Earth Council",
+  "description": "A global movement building sustainable communities through education, environmental action, innovation, and collective impact.",
+  "url": "https://eeccouncil.org",
+  "logo": "https://eeccouncil.org/logo.png",
+  "sameAs": [
+    "https://twitter.com/eeccouncil",
+    "https://facebook.com/eeccouncil",
+    "https://instagram.com/eeccouncil",
+    "https://linkedin.com/company/eeccouncil"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "General Support",
+    "email": "contact@eeccouncil.org"
+  },
+  "foundingDate": "2024",
+  "areaServed": "Worldwide",
+  "knowsAbout": [
+    "Environmental Protection",
+    "Sustainability",
+    "Education",
+    "Humanitarian Action",
+    "Climate Action",
+    "Community Development"
+  ]
+}
